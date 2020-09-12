@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическая работа 3</title>
+    <style type="text/css">
+        h1{color:#05386B; font-style: italic; font-size: 32px;}
+        p{color: #F64C72}
+
+        .blue{
+            color:#5680E9;
+            font-style: italic;
+        }
+        #boldunderline {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        *{margin: 10px; padding: 4px;}
+    </style>
+</head>
+<body>
+    <h2>Упражнение 13. Создание и использование каскадных таблиц стилей</h2>
+    <h3>1. Внутренние таблицы стилей задают стиль только одному элементу документа при помощи атрибута style в HTML теге.</h3>
+    
+    <p><font color="#E27D60 " size="4" face="Arial”" >Пример физического форматирования.</font></p>
+    <p style="color: #41B3A3; font-size:12pt; font-family:Arial"> Пример встроенной таблицы стилей.</p>
+
+    <p>Плёночная фотография для начинающих</p>
+    <h1> С чего начать работу с пленкой</h1>
+    <p> Для тех, кто втянулся в фотографию лишь недавно, пленка может показаться устаревшим форматом, который более не имеет смысла.</p>
+
+    <p class="blue"> Здравствуйте, это мой сайт про пленочную фотографию </p>
+    <p class="blue" id="boldunderline"> Пока еще в стадии разработки ... </p>
+    <p id="boldunderline">... Но скоро откроется </p>
+
+    <div style="background:#F13C20; width: 100px; float: left;">Красный блок</div>
+    <div style="background:#376E6F; width: 200px; float: left;">Зеленый блок</div>
+    <div style="background:#29648A; width: 300px; float: left;">Синий блок</div>
+    <div style="background:#D79922; clear: left;">Оранжевый блок <br> Тестовый отступ</div>
+
+
+
+
+</body>
+</html>
